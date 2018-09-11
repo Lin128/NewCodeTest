@@ -27,4 +27,4 @@ request = input('1)P:phone number \n2)O:years old\nPlease input:')
 if request=='P': key ='phone'
 if request=='O': key ='age'
 
-if name in people:print("{0}'s {1} is {2}". name, labels[key], people[name][key] )
+if name in people:print("{0}'s {1} is {2}".format( name, labels[key], people[name][key]))
