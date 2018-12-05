@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d8a7a8ce-c45b-437b-9f15-6d8d3dbd3524</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PhoneTest.py</StartupFile>
+    <StartupFile>Chapters1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Chapters1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PhoneTest.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
