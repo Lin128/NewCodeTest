@@ -1,6 +1,6 @@
 ###List
-bob = ['Bob Smith', 42, 30000, 'SoftWare']
-sue = ['Sue Jones', 45, 45000, 'HardWare']
+#bob = ['Bob Smith', 42, 30000, 'SoftWare']
+#sue = ['Sue Jones', 45, 45000, 'HardWare']
 
 #print("Bob's Name:" + bob[0])
 
@@ -34,3 +34,15 @@ sue = ['Sue Jones', 45, 45000, 'HardWare']
 
 
 
+
+import string 
+
+#去除空格
+#s = '   abc   de  fg '
+#print(s.strip());
+#print(s.lstrip());
+#print(s.rstrip());
+
+s="a1,a2,a3"
+s_1 = s.split(',')
+print(s_1)
